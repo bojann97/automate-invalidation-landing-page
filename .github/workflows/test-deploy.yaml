@@ -9,7 +9,6 @@ jobs:
     env:
       BUCKET_NAME: hr-landing-page-testing
       IMAGE_TAG: ${{ github.sha }}
-      DISTRIBUTION_ID: E336K557CTOIBG
 
     steps:
       - name: Checkout
@@ -30,9 +29,4 @@ jobs:
           aws s3 cp ./ s3://${BUCKET_NAME}
           --recursive
           --exclude ".*"
- 
-      - name: Invalidation cloud front
-        run: >
-          aws cloudfront create-invalidation
-          --distribution-id ${DISTRIBUTION_ID}
-          --paths "/*"
+
