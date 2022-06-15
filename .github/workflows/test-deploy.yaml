@@ -1,0 +1,38 @@
+name: test_deploy
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-website:
+    runs-on: ubuntu-latest
+    env:
+      BUCKET_NAME: hr-landing-page-testing
+      IMAGE_TAG: ${{ github.sha }}
+      DISTRIBUTION_ID: E336K557CTOIBG
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Remove old files from S3
+        run: aws s3 rm s3://${BUCKET_NAME} --recursive
+
+      - name: Upload new files to s3
+        run: >
+          aws s3 cp ./ s3://${BUCKET_NAME}
+          --recursive
+          --exclude ".*"
+ 
+      - name: Invalidation cloud front
+        run: >
+          aws cloudfront create-invalidation
+          --distribution-id ${DISTRIBUTION_ID}
+          --paths "/*"
