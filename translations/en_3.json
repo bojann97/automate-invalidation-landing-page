@@ -1,0 +1,42 @@
+{
+  "berry-header-btn-join-the-waitlist": "Join the waitlist",
+
+  "berry-banner-title": "<span class='text-decoration'>The mobile-only HR platform</span> connecting generations on the go.",
+  "berry-banner-description": "Berry helps small businesses and their employees to <span class='text-decoration'>communicate, organize</span> and <span class='text-decoration'>work</span> effortlessly.",
+  "berry-banner-btn-join-the-waitlist": "Join the waitlist",
+
+  "berry-team-title": "Bring your team <span class='text-decoration'>together!</span>",
+  "berry-team-paragraph-one": "<span class='text-decoration'>Invite</span> your whole team to Berry and <span class='text-decoration'>align</span> where and when you work on any given day.",
+  "berry-team-paragraph-two": "Never forget <span class='text-decoration'>important dates </span>- celebrate them together!",
+
+  "berry-service-title-one": "Remote or office work?",
+  "berry-service-title-two": "With <span class='text-decoration'>Berry</span>, you are always present.",
+  "berry-service-one": "<span class='text-decoration'>Approve</span> pending <span class='text-decoration'>Time Off requests</span> with a single tap and instantly cheer up your employees!",
+  "berry-service-two": "Make all the necessary <span class='text-decoration'>info accessible</span> to your team and ditch the boring paperwork.",
+  "berry-service-three": "<span class='text-decoration'>Stay informed </span>about what's going on in the company and with your colleagues.",
+
+  "berry-heading-title": "<span class='text-decoration'>Where</span> are we heading?",
+  "berry-heading-paragraph-one": "Berry is on its way to creating a new kind of company culture by emphasizing <span class='text-decoration'>inclusivity and diversity of employees!</span>",
+  "berry-heading-paragraph-two": "We are tailoring Berry to the needs of <span class='text-decoration'>modern workplaces</span> by asking what you need from an HR app!",
+  "berry-heading-paragraph-three": "More <span class='text-decoration'>Tech </span>& more <span class='text-decoration'>Human</span>",
+
+  "berry-about-title": "Who is <span class='text-decoration'>Berry</span> for?",
+  "berry-about-box-one": "<span class='text-decoration'>Small businesses</span> that offer hybrid and remote work models.",
+  "berry-about-box-two": "<span class='text-decoration'>Teams </span>who appreciate tech, but value teammates.",
+  "berry-about-box-three": "<span class='text-decoration'>Companies</span> that value employees' individuality as much as they love teamwork.",
+
+  "berry-signup-title": "Interested in trying <span class='text-decoration'>Berry</span>?",
+  "berry-signup-subtitle": "<span class='text-decoration'>Sign up</span> for our Berry Beta!",
+  "berry-signup-full-name": "Full Name",
+  "berry-signup-email-address": "Email Address",
+  "berry-signup-btn-join-the-waitlist": "Join the waitlist",
+
+  "berry-footer-contact-us": "Contact Us",
+  "berry-footer-check-out-work-on": "Check our work on ",
+  "berry-footer-linkedin": "LinkedIn",
+  "berry-footer-or-send-an-email-to": "or send an email to",
+  "berry-footer-privacy-policy": "Privacy Policy",
+  "berry-footer-cookie-policy": "Cookie Policy",
+  "berry-footer-terms-of-service": "Terms of Use",
+  "berry-footer-company-info": "Company Info"
+}

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+
+  <title>Berry – More Tech & More Human</title>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KBDRK88');
+  </script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag(trackEvent) {
+      dataLayer.push(trackEvent);
+    }
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- libs -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./libs/i18n/jquery.i18n.js"></script>
+  <script src="./libs/i18n/jquery.i18n.messagestore.js"></script>
+  <script src="./libs/i18n/jquery.i18n.fallbacks.js"></script>
+  <script src="./libs/i18n/jquery.i18n.parser.js"></script>
+  <script src="./libs/i18n/jquery.i18n.emitter.js"></script>
+  <script src="./libs/i18n/jquery.i18n.language.js"></script>
+
+  <!-- local js -->
+  <script src="./app_9.js"></script>
+  <script src="./tracking_1.js"></script>
+
+  <!-- local css -->
+  <link rel="stylesheet" href="styles_5.css">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBDRK88" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- modal -->
+  <div class="modal-background" id="modal">
+    <div class="modal close-modal">
+      <div class="modal-content">
+        <div class="modal-content-description">
+          <button class="close close-modal" data-dismiss="modal">
+            <img src="./img/close_1.svg" alt="close-icon" class="close-modal" />
+          </button>
+          <h2 class="modal-title">
+            Thank you for signing up to try Berry Beta!
+          </h2>
+          <p class="modal-text">Our team will contact you soon.</p>
+          <button class="btn modal-btn close-modal">DONE</button>
+        </div>
+        <figure class="modal-content-img-box">
+          <img class="modal-content-img" src="./img/modal_1.svg" alt="modal-img" />
+        </figure>
+      </div>
+    </div>
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+    </div>
+  </div>
+
+  <div class="root">
+
+    <!-- first  background -->
+    <figure class="bg1-container">
+      <img class="bg1-img" src="./img/bg1_1.svg" alt="" />
+    </figure>
+
+    <!-- second background -->
+
+    <figure class="bg2-container">
+      <img class="bg2-img" src="./img/bg2_1.svg" alt="">
+    </figure>
+
+    <!-- header  -->
+    <div class="container">
+      <header class="header">
+        <figure class="logo">
+          <a href="/"><img class="logo-img" src="./img/logo_1.svg" alt="logo" /></a>
+        </figure>
+        <a class="btn header-btn track-checkout-button" href="./index.html#signup" data-i18n="berry-header-btn-join-the-waitlist">JOIN THE WAITLIST</a>
+      </header>
+    </div>
+
+    <!-- banner-section -->
+    <div class="container">
+      <div class="banner">
+        <div class="banner-description">
+          <h2 class="banner-description-title" data-i18n="[html]berry-banner-title">
+            <span class="text-decoration">The mobile-only HR platform</span>
+            connecting generations on the go.
+          </h2>
+          <p class="banner-description-text text" data-i18n="[html]berry-banner-description">
+            Berry helps small businesses and their employees to
+            <span class="text-decoration">communicate, organize</span> and
+            <span class="text-decoration">work</span> effortlessly.
+          </p>
+          <a class="btn banner-btn track-checkout-button" href="#signup" data-i18n="berry-banner-btn-join-the-waitlist">JOIN THE
+            WAITLIST</a>
+        </div>
+        <figure class="banner-img-box">
+          <picture>
+            <source media="(max-width: 500px)" srcset="./img/banner/banner_mobile.png, ./img/banner/banner_mobile_2x.png 2x, ./img/banner/banner_mobile_3x.png 3x">
+            <source media="(max-width: 744px)" srcset="./img/banner/banner_744.png, ./img/banner/banner_744_2x.png 2x, ./img/banner/banner_744_3x.png 3x">
+            <source media="(max-width: 834px)" srcset="./img/banner/banner_834.png, ./img/banner/banner_834_2x.png 2x, ./img/banner/banner_834_3x.png 3x">
+            <source media="(max-width: 1024px)" srcset="./img/banner/banner_1024.png, ./img/banner/banner_1024_2x.png 2x, ./img/banner/banner_1024_3x.png 3x">
+            <source media="(min-width: 1025px)" srcset="./img/banner/banner_default.png, ./img/banner/banner_default_2x.png 2x, ./img/banner/banner_default_3x.png 3x">
+            <img class="banner-img" src="./img/banner/banner_default_3x.png" alt="banner-img">
+          </picture>
+        </figure>
+      </div>
+    </div>
+
+
+    <!-- team section -->
+    <div class="container">
+      <div class="team">
+        <figure class="team-img-box">
+          <img class="team-img" src="./img/team_1.svg" alt="team" />
+        </figure>
+
+        <section class="team-description">
+          <h2 class="team-description-title" data-i18n="[html]berry-team-title">
+            Bring your team <span class="text-decoration">together</span>!
+          </h2>
+
+          <figure class="team-description-card">
+            <img src="./img/user-icon_1.svg" alt="user-icon" />
+            <figcaption class="team-description-card-text text" data-i18n="[html]berry-team-paragraph-one">
+              <span class="text-decoration">Invite</span> your whole team to
+              Berry and <span class="text-decoration">align</span> where and
+              when you work on any given day.
+            </figcaption>
+          </figure>
+
+          <figure class="team-description-card">
+            <img src="./img/sun-icon_1.svg" alt="sun-icon" />
+            <figcaption class="team-description-card-text text" data-i18n="[html]berry-team-paragraph-two">
+              Never forget
+              <span class="text-decoration">important dates </span>- celebrate
+              them together!
+            </figcaption>
+          </figure>
+        </section>
+      </div>
+    </div>
+
+    <!-- service section -->
+    <div class="container-relative">
+      <div class="container">
+        <div class="service">
+
+          <h2 class="service-title" data-i18n="berry-service-title-one">Remote or office work?</h2>
+          <h2 class="service-title" data-i18n="[html]berry-service-title-two">
+            With <span class="text-decoration">Berry</span>, you are always
+            present.
+          </h2>
+          <div class="service-content">
+            <figure class="service-content-card">
+              <div class="service-content-img-container">
+                <img class="service-content-card-img" src="./img/service1_1.svg" alt="service1" />
+              </div>
+              <figcaption class="service-content-card-text text" data-i18n="[html]berry-service-one">
+                <span class="text-decoration">Approve</span> pending
+                <span class="text-decoration">Time Off requests</span> with a
+                single tap and instantly cheer up your employees!
+              </figcaption>
+            </figure>
+
+            <figure class="service-content-card">
+              <div class="service-content-img-container">
+                <img class="service-content-card-img" src="./img/service2_1.svg" alt="service2" />
+              </div>
+              <figcaption class="service-content-card-text text" data-i18n="[html]berry-service-two">
+                Make all the necessary
+                <span class="text-decoration">info accessible</span> to your team
+                and ditch the boring paperwork.
+              </figcaption>
+            </figure>
+
+            <figure class="service-content-card">
+              <div class="service-content-img-container">
+                <img class="service-content-card-img" src="./img/service3_1.svg" alt="service3" />
+              </div>
+              <figcaption class="service-content-card-text text" data-i18n="[html]berry-service-three">
+                <span class="text-decoration">Stay informed </span>about what's
+                going on in the company and with your colleagues.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--HEADING SECTION-->
+    <div class="container">
+      <div class="heading">
+        <figure class="heading-img-box">
+          <picture>
+            <source media="(max-width: 500px)" srcset="./img/heading/heading_mobile.png, ./img/heading/heading_mobile_2x.png 2x, ./img/heading/heading_mobile_3x.png 3x">
+            <source media="(max-width: 744px)" srcset="./img/heading/heading_1024.png, ./img/heading/heading_1024_2x.png 2x, ./img/heading/heading_1024_3x.png 3x">
+            <source media="(max-width: 834px)" srcset="./img/heading/heading_834.png, ./img/heading/heading_834_2x.png 2x, ./img/heading/heading_834_3x.png 3x">
+            <source media="(max-width: 1024px)" srcset="./img/heading/heading_1024.png, ./img/heading/heading_1024_2x.png 2x, ./img/heading/heading_1024_3x.png 3x">
+            <source media="(min-width: 1025px)" srcset="./img/heading/heading_default.png, ./img/heading/heading_default_2x.png 2x, ./img/heading/heading_default_3x.png 3x">
+            <img class="heading-img" src="./img/heading/heading_default_3x.png" alt="heading-img">
+          </picture>
+        </figure>
+        <article class="heanding-description">
+          <h2 class="heading-description-title title" data-i18n="[html]berry-heading-title">
+            <span class="text-decoration">Where</span> are we heading?
+          </h2>
+          <p class="heading-description-text text" data-i18n="[html]berry-heading-paragraph-one">
+            Berry is on its way to creating a new kind of company culture by
+            emphasizing
+            <span class="text-decoration">inclusivity and diversity of employees!</span>
+          </p>
+          <p class="heading-description-text text" data-i18n="[html]berry-heading-paragraph-two">
+            We are tailoring Berry to the needs of
+            <span class="text-decoration">modern workplaces</span> by asking
+            what you need from an HR app!
+          </p>
+          <p class="heading-description-subtitle subtitle" data-i18n="[html]berry-heading-paragraph-three">
+            More <span class="text-decoration">Tech </span>& more
+            <span class="text-decoration">Human</span>
+          </p>
+        </article>
+      </div>
+    </div>
+
+    <!-- about - section -->
+    <div class="container">
+      <div class="about">
+        <h2 class="about-title title" data-i18n="[html]berry-about-title">
+          Who is <span class="text-decoration">Berry</span> for?
+        </h2>
+        <section class="about-content">
+          <figure class="about-content-card">
+            <img class="about-content-card-img fix-icon" src="./img/about1_1.svg" alt="about-card-icon" />
+            <figcaption class="about-content-card-description card-text" data-i18n="[html]berry-about-box-one">
+              <span class="text-decoration">Small businesses</span> that offer
+              hybrid and remote work models.
+            </figcaption>
+          </figure>
+          <figure class="about-content-card">
+            <img class="about-content-card-img" src="./img/about2_1.svg" alt="about-card-icon" />
+            <figcaption class="about-content-card-description card-text" data-i18n="[html]berry-about-box-two">
+              <span class="text-decoration">Teams </span>who appreciate tech,
+              but value teammates.
+            </figcaption>
+          </figure>
+          <figure class="about-content-card">
+            <img class="about-content-card-img" src="./img/about3_1.svg" alt="about-card-icon" />
+            <figcaption class="about-content-card-description card-text" data-i18n="[html]berry-about-box-three">
+              <span class="text-decoration">Companies</span> that value
+              employees' individuality as much as they love teamwork.
+            </figcaption>
+          </figure>
+        </section>
+      </div>
+    </div>
+
+    <!-- signup section -->
+    <div class="container-relative" id="signup">
+      <div class="container">
+        <div class="signup-section">
+          <div class="signup-section-form">
+            <section class="signup-section-form-title-section">
+              <h2 class="signup-section-form-title title" data-i18n="[html]berry-signup-title">
+                Interested in trying
+                <span class="text-decoration">Berry</span>?
+              </h2>
+              <p class="signup-section-form-subtitle subtitle" data-i18n="[html]berry-signup-subtitle">
+                <span class="text-decoration">Sign up</span> for our Berry
+                Beta!
+              </p>
+            </section>
+            <form class="signup-form-box" name="waitlist" id="waitlist-form">
+              <div class="form-group">
+                <label class="form-group-label" for="name" data-i18n="berry-signup-full-name">Full Name</label>
+                <input class="form-group-input" type="text" placeholder="Enter your complete name" id="name" name="name" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-group-label" for="email" data-i18n="berry-signup-email-address">Email Address</label>
+                <input class="form-group-input" type="email" placeholder="Enter your email address" id="email" name="email" required />
+              </div>
+
+              <label class="form-control">
+                <input type="checkbox" name="terms-check" id="terms-check" value="checked" required />
+                <span class="form-group-label">
+                  By ticking, I confirm that I agree to Berry’s <a href="./terms-and-conditions.html">Terms of Use</a> and <a href="./privacy-policy.html">Privacy Policy</a>
+                </span>
+              </label>
+
+              <button class="btn form-btn" data-i18n="berry-signup-btn-join-the-waitlist">JOIN THE WAITLIST</button>
+            </form>
+          </div>
+
+          <figure class="signup-section-img-box">
+            <img class="signup-section-img" src="./img/form-img_1.svg" alt="form-img" />
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container">
+      <footer class="footer">
+        <figure class="footer-logo">
+          <a href="/"><img class="footer-logo-img" src="./img/logo_1.svg" alt="logo" /></a>
+        </figure>
+        <section class="footer-content">
+          <p class="footer-content-title" data-i18n="berry-footer-company-info">Company info</p>
+          <p class="footer-content-text">App Crafters</p>
+          <p class="footer-content-text">Karađorđeva 15</p>
+          <p class="footer-content-text">32000 Čačak</p>
+          <p class="footer-content-text">Serbia</p>
+        </section>
+        <section class="footer-content">
+          <p class="footer-content-title" data-i18n="berry-footer-contact-us">Contact Us</p>
+          <p class="footer-content-text" data-i18n="[append]berry-footer-check-out-work-on">
+            Check our work on <a class="bald linkedin-link" data-i18n="berry-footer-linkedin" href="https://www.linkedin.com/company/berryapp" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+          <p class="footer-content-text" data-i18n="berry-footer-or-send-an-email-to">or send an email to</p>
+          <a class="footer-link" href="mailto:hello@tryberry.app">hello@tryberry.app</a>
+        </section>
+      </footer>
+      <section class="sub-footer">
+        <p class="sub-footer-copy">© 2022, App Crafters</p>
+        <div class="sub-footer-links">
+          <a class="subfooter-link" href="./privacy-policy.html" data-i18n="berry-footer-privacy-policy">Privacy Policy</a> |
+          <a class="subfooter-link" href="./cookie-policy.html" data-i18n="berry-footer-cookie-policy">Cookie Policy</a> |
+          <a class="subfooter-link" href="./terms-and-conditions.html"=data-i18n="berry-footer-terms-of-service">Terms of Use</a>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+</body>
+<svg id="088fac58-7acf-4d1d-9392-eaec87d73da8" aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <clipPath id="checkmark" clipPathUnits="objectBoundingBox" transform="scale(0.021739130434782608, 0.021739130434782608)">
+    <path
+      d="M20.687,38.332c-2.072,2.072-5.434,2.072-7.505,0L1.554,26.704c-2.072-2.071-2.072-5.433,0-7.504 c2.071-2.072,5.433-2.072,7.505,0l6.928,6.927c0.523,0.522,1.372,0.522,1.896,0L36.642,7.368c2.071-2.072,5.433-2.072,7.505,0 c0.995,0.995,1.554,2.345,1.554,3.752c0,1.407-0.559,2.757-1.554,3.752L20.687,38.332z">
+    </path>
+  </clipPath>
+</svg>
+
+</html>
